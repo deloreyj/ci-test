@@ -8,7 +8,8 @@
 		"start": "wrangler dev",
 		"test": "vitest",
 		"cf-typegen": "wrangler types",
-		"deploy:version": "WRANGLER_API_ENVIRONMENT=staging wrangler versions upload"
+		"deploy:version": "WRANGLER_API_ENVIRONMENT=staging wrangler versions upload",
+		"foo": "bar"
 	},
 	"devDependencies": {
 		"@cloudflare/vitest-pool-workers": "^0.4.5",
