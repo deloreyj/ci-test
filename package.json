@@ -3,7 +3,8 @@
 	"version": "0.0.0",
 	"private": true,
 	"scripts": {
-		"deploy": "WRANGLER_API_ENVIRONMENT=staging wrangler deploy",
+		"deploy:staging": "WRANGLER_API_ENVIRONMENT=staging wrangler deploy",
+		"deploy": "wrangler deploy",
 		"dev": "wrangler dev",
 		"start": "wrangler dev",
 		"test": "vitest",
